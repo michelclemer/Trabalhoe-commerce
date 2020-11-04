@@ -1,0 +1,48 @@
+{% url 'home' as home_url %}
+{% url 'contact' as contact_url %}
+{% url 'products:list' as products_list_url %}
+{% url 'login' as login_url %}
+{% url 'logout' as logout_url %}
+{% url 'register' as register_url %}
+{% load static %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+  <div class='container'>
+    <a class="navbar-brand" href="{{ home_url }}">
+      <img src="{% static 'img/cc.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+      {% if nome_da_marca %} 
+      {{ nome_da_marca }} 
+      {% else %} C&oacute;digo Fluente eCommerce 
+      {% endif %}
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item {% if request.path == home_url %} active {% endif %}">
+          <a class="nav-link font-weight-bold" href="{{ home_url }}">Home <span class="sr-only ">(current)</span></a>
+        </li>
+        <li class="nav-item {% if request.path == conntentact_url %} active {% endif %}">
+          <a class="nav-link font-weight-bold" href="{{ contact_url }}">Contato</a>
+        </li>
+        <li class="nav-item {% if request.path == products_list_url %} active {% endif %}">
+          <a class="nav-link font-weight-bold" href="{{ products_list_url }}">Produtos</a>
+        </li>
+        {% if request.user.is_authenticated %}
+        <li class="nav-item {% if request.path == login_url %} active {% endif %}"> 
+          <a class="nav-link font-weight-bold" href="{{ logout_url }}">Logout</a> 
+        </li>
+        {% else %}
+        <li class="nav-item {% if request.path == login_url %} active {% endif %}">
+          <a class="nav-link font-weight-bold" href="{{ login_url }}">Login</a>
+        </li>
+        <li class="nav-item {% if request.path == register %} active {% endif %}"> 
+          <a class="nav-link font-weight-bold" href="{{ register_url }}">Registrar-se</a> 
+        </li>
+      {% endif %}
+        
+      </ul>
+      {% include 'search/snippets/search-form.html' %}
+    </div>
+  </div><!--fim container-->
+</nav>

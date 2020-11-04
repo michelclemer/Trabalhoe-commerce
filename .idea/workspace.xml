@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52d2f7c4-5658-45d6-ac66-11419c86651e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e_commerce/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_commerce/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/templates/search/snippets/search-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/search/templates/search/snippets/search-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_local/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static_local/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bootstrap/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bootstrap/example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home_page.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/src" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="JupyterTrust" id="877b8c55-df86-4587-ad6f-bd20ba491387" />
+  <component name="ProjectId" id="1iZapMUBob67jqGkzvTQaV00Hhy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static_cdn" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52d2f7c4-5658-45d6-ac66-11419c86651e" name="Default Changelist" comment="" />
+      <created>1602117750408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602117750408</updated>
+      <workItem from="1602117751465" duration="1176000" />
+      <workItem from="1602373404064" duration="1880000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="500" y="141" key="FileChooserDialogImpl" timestamp="1604242162747">
+      <screen x="59" y="24" width="1307" height="744" />
+    </state>
+    <state x="500" y="141" key="FileChooserDialogImpl/59.24.1307.744@59.24.1307.744" timestamp="1604242162747" />
+    <state x="190" y="70" key="MergeDialog" timestamp="1602468518677">
+      <screen x="59" y="24" width="1307" height="744" />
+    </state>
+    <state x="190" y="70" key="MergeDialog/59.24.1307.744@59.24.1307.744" timestamp="1602468518677" />
+    <state x="348" y="145" key="MultipleFileMergeDialog" timestamp="1602468518682">
+      <screen x="59" y="24" width="1307" height="744" />
+    </state>
+    <state x="348" y="145" key="MultipleFileMergeDialog/59.24.1307.744@59.24.1307.744" timestamp="1602468518682" />
+    <state x="206" y="32" key="SettingsEditor" timestamp="1604363730019">
+      <screen x="59" y="24" width="1307" height="744" />
+    </state>
+    <state x="206" y="32" key="SettingsEditor/59.24.1307.744@59.24.1307.744" timestamp="1604363730019" />
+    <state x="312" y="119" key="Vcs.Push.Dialog.v2" timestamp="1602468973197">
+      <screen x="59" y="24" width="1307" height="744" />
+    </state>
+    <state x="312" y="119" key="Vcs.Push.Dialog.v2/59.24.1307.744@59.24.1307.744" timestamp="1602468973197" />
+    <state x="377" y="77" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602467602566">
+      <screen x="59" y="24" width="1307" height="744" />
+    </state>
+    <state x="377" y="77" key="git4idea.branch.GitSmartOperationDialog/59.24.1307.744@59.24.1307.744" timestamp="1602467602566" />
+  </component>
+</project>

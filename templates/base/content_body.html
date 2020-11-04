@@ -1,0 +1,70 @@
+
+{% load static %}
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab"  href="#img1">Computadores</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab"  href="#img2">Notbooks</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab"  href="#img3">Acessórios</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab"  href="#img4">Celulares</a>
+      </li>
+     
+   
+  </ul>
+
+
+  <div class="tab-content">
+    <div class="tab-pane container active" id="img1">
+        <br>
+        <img src="{% static 'img/pc2.jpg' %}" class="rounded float-right" alt="..." style="width:30%">
+   
+        <img src="{% static 'img/pc3.jpg' %}" class="rounded float-left" alt="..." style="width:30%">
+
+        <div class="tab-pane container " id="img1">
+            <button type="button" class="btn btn-outline-primary float-left">Comprar</button>
+            <button type="button" class="btn btn-outline-primary float-right">Comprar</button>
+        </div>
+      
+    </div>
+    
+    <div class="tab-pane container fade" id="img2">
+        <br>
+        <img src="{% static 'img/nt1.jpg' %}" class="rounded float-right" alt="..." style="width:30%">
+        <img src="{% static 'img/nt3.jpg' %}" class="rounded float-left" alt="..." style="width:30%">
+        <div class="tab-pane container " id="img2">
+            <button type="button" class="btn btn-outline-primary float-left">Comprar</button>
+            <button type="button" class="btn btn-outline-primary float-right">Comprar</button>
+        </div>
+    </div>
+    
+    <div class="tab-pane container fade" id="img3">
+        <br>
+        <img src="{% static 'img/teclado2.jpg' %}" class="rounded float-right" alt="..." style="width:30%">
+        <img src="{% static 'img/i7.png' %}" class="rounded float-left" alt="..." style="width:30%">
+        <div class="tab-pane container " id="img3">
+            <button type="button" class="btn btn-outline-primary float-left">Comprar</button>
+            <button type="button" class="btn btn-outline-primary float-right">Comprar</button>
+        </div>
+  
+    </div>
+    
+    <div class="tab-pane container fade" id="img4">
+        <br>
+        <img src="{% static 'img/iPhone1.jpg' %}" class="rounded float-right" alt="..." style="width:30%">
+        <img src="{% static 'img/xiaomi1.jpg' %}" class="rounded float-left" alt="..." style="width:30%">
+        <div class="tab-pane container" id="img4">
+            <button type="button" class="btn btn-outline-primary float-left">Comprar</button>
+            <button type="button" class="btn btn-outline-primary float-right">Comprar</button>
+        </div>
+  
+    </div>
+    
+  </div>
+
+
+
